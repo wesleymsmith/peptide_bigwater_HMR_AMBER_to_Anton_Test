@@ -1,0 +1,6 @@
+viparr-convert-prmtop.py -c arf_coords.rst7 -o arf.HMR_nonWater.dms arf_top.parm7
+viparr -s water -f tip3p arf.HMR_nonWater.dms arf.HMR_nonWater.tip3p.dms
+build_constraints arf.HMR_nonwater.tip3p.dms
+dms-set arf.HMR_nonWater.tip3p.dms arf.HMR_nonWater.msys_HMR_water_O.tip3p.dms -s "resname WAT and name O" mass=12
+dms-set arf.HMR_nonWater.msys_HMR_water_O.tip3p.dms arf.HMR_nonWater.msys_HMR_water_O_H1.tip3p.dms -s "resname WAT and name H1" mass=3
+dms-set arf.HMR_nonWater.msys_HMR_water_O_H1.tip3p.dms arf.HMR_nonWater.msys_HMR_water.tip3p.dms -s "resname WAT and name H2" mass=3  

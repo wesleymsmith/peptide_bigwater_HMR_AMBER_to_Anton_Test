@@ -1,0 +1,3 @@
+viparr-convert-prmtop.py -c arf_coords.rst7 -o arf.HMR_nonWater.dms
+viparr -s water -f tip3p arf.HMR_nonWater.dms arf.HMR_nonWater.tip3p.dms
+build_constraints arf.HMR_nonWater.tip3p.dms
