@@ -1,0 +1,6 @@
+# Log started on 04/19/2018 [mm/dd/yyyy] at 09:57:36
+# Command line arguments: step2_charmm2amber.parm7
+# Loaded topologies: step2_charmm2amber.parm7
+help
+netCharge *
+quit

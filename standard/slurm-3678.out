@@ -1,0 +1,4 @@
+running production
+running step3_minimization
+running step4.0_equilibration
+slurmstepd: *** JOB 3678 ON node001 CANCELLED AT 2018-04-19T10:25:02 ***

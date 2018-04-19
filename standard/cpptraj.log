@@ -1,0 +1,26 @@
+# 04/19/18 10:04:40
+# step2_charmm2amber.psf
+# Loaded topologies:
+#   step2_charmm2amber.psf
+trajin step3_minimization.rst7
+trajout step3_minimization.ascii.rst7
+go
+exit
+# 04/19/18 10:06:47
+# step2_charmm2amber.parm7
+# Loaded topologies:
+#   step2_charmm2amber.parm7
+parmwrite out step2_charmm2amber.nochamber.parm7 nochamber
+go
+quit
+# 04/19/18 10:32:34
+quit
+# 04/19/18 10:32:48
+# step2_charmm2amber.parm7
+# Loaded topologies:
+#   step2_charmm2amber.parm7
+parmwrite out step2_charmm2amber.nochamber.parm7 nochamber
+trajin step4.4_equilibration.rst7
+trajout step4.4_equilibration.ascii.rst7
+go
+quit
