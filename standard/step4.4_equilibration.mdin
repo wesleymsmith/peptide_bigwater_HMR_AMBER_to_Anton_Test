@@ -10,8 +10,8 @@ A NPT simulation for common production-level simulations
     temp0=310.15,   ! Target temperature
 
     ! Potential energy control
-    cut=6.0,      ! Nonbonded cutoff, in Angstroms
-    fswitch=5.0,  ! Force-based switching
+    cut=12.0,      ! Nonbonded cutoff, in Angstroms
+    fswitch=10.0,  ! Force-based switching
 
     ! MD settings
     nstlim=25000,  ! 25K steps, 25 ps total
