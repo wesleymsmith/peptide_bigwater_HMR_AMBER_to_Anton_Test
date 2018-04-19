@@ -1,0 +1,3 @@
+running production
+running step5.000_production
+slurmstepd: *** JOB 3683 ON node001 CANCELLED AT 2018-04-19T10:52:24 ***

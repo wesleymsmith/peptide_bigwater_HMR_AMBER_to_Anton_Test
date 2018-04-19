@@ -1,0 +1,7 @@
+# 04/19/18 10:50:13
+# step2_charmm2amber.hmr_water.parm7
+# Loaded topologies:
+#   step2_charmm2amber.hmr_water.parm7
+parmwrite out step2_charmm2amber.hmr_water.nochamber.parm7 nochamber
+go
+quit
